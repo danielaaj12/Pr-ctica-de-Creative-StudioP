@@ -11,6 +11,7 @@
 }
 
 body{
+  background: #f4f4f4;
   margin: 0;
   border-top: 17px solid #090909;
   font-family: Arial, Helvetica, sans-serif;
@@ -190,3 +191,29 @@ h3{
 /****************
       Footer
 *****************/
+#footer_wrapper{
+  background: #e2e2e2;
+}
+
+#footer span{
+  display: block;
+  font-size: 12px;
+  color: #5d5d5d;
+}
+
+#footer p{
+  margin: auto;
+  width: 960px;
+  padding: 40px 0px;
+}
+
+#footer p > span{
+  float: left;
+}
+
+#footer img{
+  position: relative;
+  bottom: 15px;
+  float: right;
+  width: 150px;
+}
