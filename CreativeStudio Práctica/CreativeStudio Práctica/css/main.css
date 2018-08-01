@@ -30,6 +30,7 @@ h2{
 }
 
 h3{
+  font-weight: bold;
   font-size: 12px;
   color: #000000;
 }
@@ -147,19 +148,71 @@ h3{
   color: #090909;
   content: "➔";
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 18px;
   
 }
 /****************
       Portfolio
 *****************/
 
+.imagenes img + img{
+  padding-left: 28px;
+}
+.imagenes{
+  padding: 20px 0px;
+}
+
+
+
 /****************
       Info
 *****************/
+.sinfo{
+  float: left;
+  color: #5d5d5d;
+  margin-bottom: 30px;
+}
 
+.sinfo2{
+  width: 70%;
+}
+
+.sinfo3{
+  width: 21%;
+  padding: 0px 43px;
+}
+
+.íconosconct img + img{
+  padding-left: 14px;
+}
 
 
 /****************
       Footer
 *****************/
+#footer_wrapper{
+  background: #e2e2e2;
+}
+
+#footer span{
+  display: block;
+  font-size: 12px;
+  color: #5d5d5d;
+}
+
+#footer p{
+  margin: auto;
+  width: 960px;
+  padding: 40px 0px;
+}
+
+#footer p > span{
+  float: left;
+}
+
+#footer img{
+  position: relative;
+  bottom: 15px;
+  float: right;
+  width: 150px;
+}
